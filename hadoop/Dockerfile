@@ -1,4 +1,4 @@
-FROM elek/bigdata-base:16
+FROM docker.registry/bigdata-base:latest
 ENV CONF_DIR /opt/hadoop/etc/hadoop
 ENV PATH $PATH:/opt/hadoop/bin
 ADD url .
